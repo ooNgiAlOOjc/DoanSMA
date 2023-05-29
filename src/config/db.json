@@ -1,0 +1,22 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "Loai_KH": "Khách hàng A",
+      "Ngay_CT": "2023-05-20",
+      "Ma_Lo_KH": "KH001",
+      "So_CT": "CT001",
+      "Ten_Lo_SX": "Lô SX 1",
+      "Ghi_Chu": "Ghi chú 1"
+    },
+    {
+      "Loai_KH": "KHXT",
+      "Ngay_CT": "2023-05-23T07:59:57.092Z",
+      "Ma_Lo_KH": "KH2",
+      "So_CT": "Lô SX 3",
+      "Ten_Lo_SX": "Lô SX ",
+      "Ghi_Chu": "ok",
+      "id": 2
+    }
+  ]
+}
