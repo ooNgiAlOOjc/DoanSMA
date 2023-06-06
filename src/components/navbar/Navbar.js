@@ -47,7 +47,7 @@ const App = () => {
   return (
     <div>
       <Layout>
-        <Header className="Header" style={{background:'#FF0303'}}>
+        <Header className="Header" style={{background:'#FF0060'}}>
           {/* <div className="logo" /> */}
           <Menu
             theme="dark"
@@ -55,7 +55,7 @@ const App = () => {
             defaultSelectedKeys={["Hệ Thống"]}
             items={items1}
             style={{
-              background: "#FF0303",
+              background: "#FF0060",
               color: "white",
               fontSize: "16px",
             }}
@@ -65,7 +65,7 @@ const App = () => {
           <Sider
             width={200}
             style={{
-              background: "#B6EAFA",
+              background: colorBgContainer,
             }}
           >
             <Menu
