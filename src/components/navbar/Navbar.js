@@ -5,6 +5,7 @@ import { Col, Row, Divider } from "antd";
 import "./Navbar.css";
 import TableList from "../tableList/TableList";
 import InputCreate from "../inputCreate/InputCreate";
+import StepByStep from "../StepByStep/StepByStep";
 
 const { Header, Content, Sider } = Layout;
 const items1 = [
@@ -46,7 +47,7 @@ const App = () => {
   return (
     <div>
       <Layout>
-        <Header className="Header">
+        <Header className="Header" style={{background:'#1677FF'}}>
           {/* <div className="logo" /> */}
           <Menu
             theme="dark"
@@ -54,8 +55,8 @@ const App = () => {
             defaultSelectedKeys={["Hệ Thống"]}
             items={items1}
             style={{
-              // background: "#1677FF",
-              // color: "white",
+              background: "#1677FF",
+              color: "white",
               fontSize: "16px",
             }}
           />
@@ -100,16 +101,7 @@ const App = () => {
                 background: colorBgContainer,
               }}
             >
-              <Row>
-                <Col flex={6}>
-                  <Divider orientation="left">Danh mục lô sản xuất</Divider>
-                  <TableList />
-                </Col>
-                <Col flex={2}>
-                  <Divider orientation="left">Chi tiết lô sản xuất</Divider>
-                  <InputCreate />
-                </Col>
-              </Row>{" "}
+              <StepByStep />
             </Content>
           </Layout>
         </Layout>

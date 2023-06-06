@@ -32,7 +32,7 @@ const Input = React.forwardRef(
           {!!prefix && prefix}
           <input
             ref={ref}
-            className={`${className} bg-transparent border-0`}
+            className={`${className}`}
             type={type}
             name={name}
             onChange={handleChange}
