@@ -47,15 +47,16 @@ const App = () => {
   return (
     <div>
       <Layout>
-        <Header className="Header" style={{background:'#FF0060'}}>
+        <Header className="Header" style={{background:'#1677FF'}}>
           {/* <div className="logo" /> */}
           <Menu
             theme="dark"
             mode="horizontal"
             defaultSelectedKeys={["Hệ Thống"]}
             items={items1}
+            activeClassName="active-menu-item"
             style={{
-              background: "#FF0060",
+              background: "#1677FF",
               color: "white",
               fontSize: "16px",
             }}

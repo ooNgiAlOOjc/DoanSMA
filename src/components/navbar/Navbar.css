@@ -1,0 +1,4 @@
+:where(.css-dev-only-do-not-override-15rg2km).ant-menu-dark.ant-menu-horizontal >.ant-menu-item-selected {
+  background-color: red !important;
+  color: #fff;
+}
